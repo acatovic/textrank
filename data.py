@@ -1,6 +1,6 @@
 import io
 
-from nltk import pos_tag, pos_tag_sents
+from nltk import pos_tag
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import porter

@@ -9,8 +9,6 @@ from model import get_topk_keywords
 from model import get_topk_sentences
 from model import pagerank
 
-from nltk import word_tokenize
-
 def extract_keywords(sentences, k=5):
     filtered_sentences = filter_sentences(sentences, lowercase=False, stem=False)
 
@@ -49,7 +47,7 @@ def main():
     
     if args.summarize:
         summary = summarize(sentences, k)
-        print "\n".join(summary)
+        print " ".join(summary)
         return
     
     print "; ".join(extract_keywords(sentences, k))
