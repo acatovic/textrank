@@ -60,7 +60,8 @@ than in the original paper (based on Hulth and DUC datasest).
 
 ## Examples
 
-Three-line summary of a random political article online:
+Three-sentence summary of a random political article online (see
+[full version](https://tinyurl.com/yb9r4em4))
 
 > The Liberal party has wheeled out its elder statesman, former prime minister
 > John Howard, in a last-ditch attempt to convince Liberal voters in Wentworth
@@ -71,24 +72,30 @@ Three-line summary of a random political article online:
 > was appalled by the treatment of Turnbull at the hands of his own party and
 > would not be voting Liberal.
 
-The top-10 keywords based on the same article above:
+Top 10 keywords based on the same article:
 
 > people; campaign; vote; Wentworth; Turnbull; Phelps; party; Liberal; Howard;
 > government
 
-Three-line summary of a tech article from the BBC data set (Greene and
-Cunningham, 2006):
+Three-sentence summary of a random tech article (see
+[full version](https://tinyurl.com/y85uptz8))
 
-> Microsoft is investigating a trojan program that attempts to switch off the
-> firm's anti-spyware software. Microsoft said it did not believe the program
-> was widespread and recommended users to use an anti-virus program. Earlier
-> this week, Microsoft said it would buy anti-virus software maker Sybari
-> Software to improve its security in its Windows and e-mail software.
+> Telstra chief executive Andy Penn has chosen Swedish technology company
+> Ericsson as a partner in its upcoming launch of Australia's ultra-fast mobile
+> network 5G, two months after the government banned Chinese-equipment
+> provider Huawei. As Telstra continues plans to turn the business around, Mr
+> Penn is rallying for the NBN Co to cut the wholesale prices it charges
+> providers as margins on retail providers have been squeezed leaving it less
+> profitable to sell these services. Launching 5G, and staying ahead of
+> competitors such as Optus and a combined TPG-Vodafone, is part of the Telstra
+> boss' plan to turn around the telco, after a difficult couple of years for the
+> share price amid the rollout of the National Broadband Network and
+> intensifying mobile competition.
 
-The top-10 keywords based on the previous article:
+Top 10 keywords based on the same article:
 
-> PC; tool; anti-spyware; e-mail; anti-virus; security; software; users;
-> program; Microsoft
+> sites; Mr; Penn; Australia; providers; technology; mobile; networks; Ericsson;
+> Telstra
 
 ## Future Improvements
 
