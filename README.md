@@ -5,22 +5,33 @@ Simple and clean Python implementation of TextRank based on (Mihalcea and Tarau,
 
 ## Prerequisites
 
-- Python 2.7
+- Python 2.7 or Python 3.*
 - [NumPy](http://www.numpy.org/)
 - [NLTK](https://www.nltk.org/)
+
+Once NLTK is installed, you need to download the necessary files used by 
+stopwords, tokenizer and stemmer. To do so, enter Python shell and run 
+the following:
+
+```python
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+```
 
 ## Usage
 
 Extract top 10 keywords from document.txt:
 
 ```bash
-python textrank.py -p document.txt -l 10
+python textrank.py -p ./samples/00.txt -l 10
 ```
 
 Summarize document.txt in 3 lines:
 
 ```bash
-python textrank.py -p document.txt -s -l 3
+python textrank.py -p ./samples/00.txt -s -l 3
 ```
 
 ## Implementation Details

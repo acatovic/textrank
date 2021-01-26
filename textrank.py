@@ -47,10 +47,10 @@ def main():
     
     if args.summarize:
         summary = summarize(sentences, k)
-        print " ".join(summary)
+        print(" ".join(summary))
         return
     
-    print "; ".join(extract_keywords(sentences, k))
+    print("; ".join(extract_keywords(sentences, k)))
 
 if __name__ == '__main__':
     main()
